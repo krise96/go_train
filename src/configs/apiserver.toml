@@ -1,2 +1,5 @@
 port = ":7777"
 loglevel = "debug"
+
+[store]
+database_url = "host=localhost user=postgress_user password=testpass dbname=gostartup sslmode=disable"
